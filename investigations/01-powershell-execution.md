@@ -68,7 +68,6 @@ PowerShell is commonly used for legitimate administration but may also be abused
 
 In this case, the activity was generated intentionally as part of a controlled detection test.
 
-Evidence
 ## Evidence
 
 ![PowerShell Detection](../Screenshot/01_powershell_rule.png)
