@@ -42,6 +42,7 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 ### Evidence
 
 ![PowerShell Detection](Screenshot/01_powershell_rule.png)
+![PowerShell Event Details](Screenshot/01_powershell_details_a.png)
 ## Investigation 02 — Failed Windows Login Detection
 
 **Objective:** Detect and analyse unsuccessful Windows authentication attempts.
@@ -65,6 +66,7 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 ### Evidence
 
 ![Failed Windows Login Detection](Screenshot/02_failed_login_overview.png)
+![Failed Login Event Details](Screenshot/02_failed_login_full_a.png)
 ## Investigation 03 — File Integrity Monitoring
 
 **Objective:** Configure real-time file monitoring and detect unauthorised-style file changes in a controlled test environment.
