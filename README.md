@@ -39,7 +39,9 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 - MITRE ATT&CK: `T1059.001` — PowerShell
 
 **Outcome:** Successfully detected and investigated PowerShell process execution.
+### Evidence
 
+![PowerShell Detection](Screenshot/01_powershell_rule.png)
 ## Investigation 02 — Failed Windows Login Detection
 
 **Objective:** Detect and analyse unsuccessful Windows authentication attempts.
@@ -60,7 +62,9 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 - Six alerts observed
 
 **Outcome:** Successfully identified local authentication failures and analysed their associated event metadata.
+### Evidence
 
+![Failed Windows Login Detection](Screenshot/02_failed_login_overview.png)
 ## Investigation 03 — File Integrity Monitoring
 
 **Objective:** Configure real-time file monitoring and detect unauthorised-style file changes in a controlled test environment.
@@ -80,7 +84,11 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 | File deletion | 553 | Level 7 |
 
 **Outcome:** Successfully detected file creation, modification and deletion through real-time File Integrity Monitoring.
+### Evidence
 
+![File Integrity Monitoring](Screenshot/03_fim_overview.png)
+
+![File Deletion Event Details](Screenshot/03_fim_deletion_details.png)
 ## Skills Demonstrated
 
 - SIEM deployment and administration
