@@ -91,6 +91,15 @@ The Wazuh deployment included the manager, indexer, dashboard and Filebeat.
 ![File Integrity Monitoring](Screenshot/03_fim_overview.png)
 
 ![File Deletion Event Details](Screenshot/03_fim_deletion_details.png)
+## Detailed Investigation Reports
+
+Each investigation includes the test procedure, detection results, security analysis, supporting evidence and analyst conclusion.
+
+| Investigation | Report |
+|---|---|
+| 01 — PowerShell Execution Detection | [View Report](investigations/01-powershell-execution.md) |
+| 02 — Failed Windows Login Detection | [View Report](investigations/02-failed-logins.md) |
+| 03 — File Integrity Monitoring | [View Report](investigations/03-file-integrity-monitoring.md) |
 ## Skills Demonstrated
 
 - SIEM deployment and administration
